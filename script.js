@@ -2,6 +2,9 @@ const clock = document.querySelector(".clock");
 const hourHand = document.querySelector(".hour");
 const minuteHand = document.querySelector(".minute");
 const secondHand = document.querySelector(".second");
+const menuIcon = document.getElementById("menuIcon");
+const menu = document.getElementById("menu");
+const close = document.getElementById("close");
 
 ////////////// POSITIONING THE CHARACTERS OF CLOCK ON A CIRCLE
 // for (let i = 1; i <= 12; i++) {
@@ -37,3 +40,13 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 updateClock();
+
+// Dropdown menu
+menu.style.display = "none";
+menuIcon.addEventListener("click", () => {
+	menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+});
+
+close.addEventListener("click", () => {
+	menu.style.display = "none";
+});

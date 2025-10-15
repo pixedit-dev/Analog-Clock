@@ -4,17 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
     <title>Classical clock</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="clock">
-            <div class="hand second"></div>
-            <div class="hand minute"></div>
-            <div class="hand hour"></div>
-            <div class="center-dot"></div>
+        <div class="header-options">
+            <div>
+
+                <div class="icons">
+                    <span class="material-icons menu" title="menu" id="menuIcon">menu</span>
+                </div>
+                <div class="dropdown-menu" id="menu">
+                    <a href="https://github.com/pixedit-dev" target="_blank" title="GitHub link"
+                        rel="noopener">GitHub</a>
+                    <a href="#">About Developer</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Telegram</a>
+                    <button title="Close" type="button" class="material-icons cancel-btn" id="close">
+                        cancel
+                    </button>
+                </div>
+            </div>
+            <div>
+                <span title="play" class="material-icons music-note">
+                    music_note
+                </span>
+            </div>
+        </div>
+
+        <div class="clock-wrapper">
+            <div class="clock">
+                <div class="hand second"></div>
+                <div class="hand minute"></div>
+                <div class="hand hour"></div>
+                <div class="center-dot"></div>
+            </div>
         </div>
     </div>
 
