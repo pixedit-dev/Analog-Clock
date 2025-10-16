@@ -3,7 +3,7 @@ const hourHand = document.querySelector(".hour");
 const minuteHand = document.querySelector(".minute");
 const secondHand = document.querySelector(".second");
 const menuIcon = document.getElementById("menuIcon");
-const menu = document.getElementById("menu");
+const menu = document.getElementById("dropdownMenu");
 const close = document.getElementById("close");
 
 ////////////// POSITIONING THE CHARACTERS OF CLOCK ON A CIRCLE
