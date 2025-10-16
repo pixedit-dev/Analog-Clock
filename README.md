@@ -10,7 +10,7 @@ It features a clean layout with subtle animations to replicate the motion of a *
 
 ## Demo
 
-Demo link will be uploaded soon...
+You can check out the final version here: [Live demo](https://pixedit-dev.github.io/Analog-Clock/)
 
 ## Built With
 
