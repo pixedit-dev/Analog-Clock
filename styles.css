@@ -191,6 +191,12 @@ a {
     border-radius: 10px;
 }
 
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: default;
+}
+
 
 /* //////////////// RESPONSIVENESS */
 @media (max-width: 900px) {
