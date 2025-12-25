@@ -10,7 +10,7 @@ It features a clean layout with subtle animations to replicate the motion of a *
 
 ## Demo
 
-You can check out the final version here: [Live demo](https://pixedit-dev.github.io/Analog-Clock/)
+You can check out the final version here: [Live demo](https://analog-clock-gamma-roan.vercel.app/)
 
 ## Built With
 
